@@ -38,6 +38,7 @@ function District(props) {
   )
 }
 
+// load the data from jsonplaceholder api and create component
 function LoadPosts() {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
@@ -59,6 +60,7 @@ function LoadPosts() {
   )
 }
 
+// create post component
 function Post(props) {
   return (
     <div style={{ backgroundColor: 'lightgray', margin: '20px', border: '4px solid lightsalmon' }}>
